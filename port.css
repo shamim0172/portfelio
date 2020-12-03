@@ -1,0 +1,115 @@
+.div1 {
+    border: 1px solid black;
+    height:650px;
+    width:110%;
+    background:url(1.jpeg);
+    background-repeat: no
+    background-size: contain;
+  }
+  .div2{
+     padding: 300px 0px;
+     text-align: center;
+     color: black;
+  }
+  .fa {
+      padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  .me{
+      font-size:x-large ;
+  }
+  .footer .jumbo{
+    margin-top: 100px;
+    height: auto;
+}
+.contact{
+    margin-top: 60px;
+}
+.contact .child-one{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact .child-two .left{
+    text-align: center;
+}
+.education .child-one{
+    text-align: center;
+    margin-top: 60px;
+}
+.education .child-two{
+    margin-top: 30px;
+}
+.education .child-two .card{
+    height: 50px;
+    width: auto;
+    padding: 10px;
+    border-left: 2px solid blueviolet;
+}
+.education .child-two .card{
+    filter: grayscale(50%);
+    transition: 1s;
+}
+.education .child-two .card:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    background-color: 	 #D3D3D3 ;
+}
+.work .child-one{
+    text-align: center;
+    margin-top: 100px;
+}
+.work .child-three{
+    text-align: center;
+    margin-top: 40px;
+}
+.work .child-two{
+    margin-top: 50px;
+}
+.work .child-two img{
+    filter: grayscale(50%);
+    transition: 1s;
+}
+.work .child-two img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.service{
+    text-align: center;
+}
